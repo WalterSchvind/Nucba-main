@@ -1,0 +1,11 @@
+.oculto {
+    display: none;
+    height: 200px;
+    width: 50%;
+  }
+  
+  .myDIV:hover + .oculto {
+    display: block;
+    
+    color: red;
+  }

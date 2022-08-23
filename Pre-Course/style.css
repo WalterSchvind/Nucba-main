@@ -1,0 +1,53 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+.title-1{
+    color:blue;
+    background: red;
+}
+/* Puedo poner el color de la fuente y el fondo en el mismo bracket , buscar si es buena practica */
+.title-2{
+    color: 
+    yellow !important; 
+    /* !important hace que el objeto seleccionado tenga prioridad NO ES BUENA PRACTICA */
+}
+.title-3{
+    color: purple
+}
+ /* #title1{ 
+    background: rgb(121, 26, 26)
+} */
+#title2{
+    background: green
+}
+#title3{
+    background: orange
+}
+.italic{
+
+    font-style: italic;
+}
+/* .=clase
+    #=id */
+a{
+    color: cyan;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    background: black;
+}
+
+p{
+    color:blue;
+}
+p:first-child{
+    color: orange;
+}
+div{
+    border: dashed 5px red
+    /* display inline block para cambiar de elemento en linea a en bloque */
+}

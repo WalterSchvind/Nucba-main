@@ -1,0 +1,17 @@
+table, th, td {
+    border: 2px inset;
+    border-collapse: collapse;
+    
+    
+  }
+th{
+    border-color: red green blue pink;
+    /* si le seteo distintos colores los bordes cambian de color en orden arriba derecha abajo izquierda */
+}
+th:first-of-type{
+    border-color: blue;
+}
+td:first-of-type
+{
+    border-color: violet;
+}

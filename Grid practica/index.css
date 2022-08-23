@@ -1,0 +1,89 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color:antiquewhite;
+
+}
+.logo{
+height: 5%;
+width: 9%;
+}
+.list-navegacion{
+    width: 90%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+}
+nav{
+    width: 50%;
+}
+a{
+    text-decoration: none;
+} 
+
+.list-navegacion li,a{
+font-family: "Montserrat",sans-serif;
+font-weight: 500;
+font-size: 1.2em;
+
+color: rgb(105, 40, 167);
+
+}
+    
+.contenedor{
+
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: [x0] 1fr [x1] 1fr [x2] 1fr [x3];
+    grid-template-rows: [y0] 1fr [y1] 1fr [y2] 1fr [y3];
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  
+}
+
+.button-title {
+    list-style: none;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  
+
+}
+
+.title {
+    background-color: red;
+    grid-column-start: x1;
+    grid-column-end: x2;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    text-align: center;
+  
+    /* Equivalente a
+    grid-column: x1 / x2; */
+  }
+  .sidebar {
+    background: black;
+    grid-row: y1 / y2;
+    color: white;
+  }
+  
+  .info {
+    background: orange;
+    grid-column: x0/ x2;
+    grid-row: y1 / y3;
+    align-items: flex-start;
+    
+  }
+  .info p {
+      width: 50%;
+    text-align:justify;
+  }
+  

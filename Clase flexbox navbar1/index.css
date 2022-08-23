@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+display: flex;
+width: 100vw;
+height: 60px;
+background: blue;
+color: violet;
+
+}
+.lcol{
+    flex: 0.33;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.rcol{
+    flex: 0.33;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    /* flex solo es flex-grow */
+}
+.mcol{
+    flex: 0.33;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* flex solo es flex-grow */
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+}
+.logo{
+   
+    background: red;
+}
+.searcher{
+    background:yellow;
+}
+.account{
+    background: green;
+}
+.notif{
+    background: orange;
+}
+.plus{
+    background:red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* .conteiner{
+   display: flex;
+    
+    flex-direction: row-reverse ;
+    background-color: blue; 
+    /* align-items: center;
+    flex-direction: column; */
+    /* flex-wrap: wrap; 
+    
+}*/
+/* .conteiner:hover{
+    display: block;
+    color: blue;
+}
+
+ul {
+    
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+
+
+  }
+li{
+    display: flex;
+    color: red;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px;
+    display: none;
+} */
