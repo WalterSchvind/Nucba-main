@@ -1,0 +1,92 @@
+/* de clases anteriores*/
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #0d0d0d;
+  color: white;
+}
+
+main {
+  max-width: 1200px;
+  height: 75vh;
+  margin: 0 auto;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.pizza-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Error / Success */
+.form__field.error input {
+  border: 1px solid #dc3545;
+}
+
+.form__field small {
+  color: #dc3545;
+  max-width: 350px;
+  text-align: center;
+  padding: 7px 0;
+}
+
+.form__field.success input {
+  border: 1px solid #28a745;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 75vh;
+}
+
+.form__field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+
+.form__title {
+  margin-bottom: 30px;
+}
+
+.form__input {
+  padding: 15px 35px 15px 15px;
+  border-radius: 8px;
+  background-color: #252525;
+  color: #fff;
+  outline: none;
+  border: none;
+  width: 350px;
+}
+
+.form__submit__btn {
+  font-size: 0.9rem;
+  background: linear-gradient(90deg, #ffa100, #ff005c);
+  color: white;
+  transition: all 0.3s ease;
+  padding: 15px 25px;
+  border-radius: 1rem;
+  cursor: pointer;
+}
