@@ -125,7 +125,7 @@ const showSucces = (input) => {
 const renderPizza = () => {
   const pizza = buscarPizza(id);
   console.log(pizza);
-  // destructuring
+
   return ` 
         <h2 id="nombre">
           <p> ${pizza.nombre} </p>
